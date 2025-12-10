@@ -1,0 +1,17 @@
+/* Basic responsive styles (compact) */
+:root{--primary:#2c7a7b;--dark:#2d3748;}
+body{font-family:Arial,Helvetica,sans-serif;background:#f5f5f5;color:var(--dark);margin:0}
+.container{max-width:1100px;margin:0 auto;padding:20px}
+header.site-header{background:#fff;padding:10px 0;box-shadow:0 2px 6px rgba(0,0,0,0.05)}
+.logo{font-weight:700;color:var(--primary);text-decoration:none}
+.nav a{margin-left:15px;text-decoration:none;color:#333}
+.room-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:20px}
+.room-card{background:#fff;padding:16px;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.03)}
+.btn{display:inline-block;padding:8px 12px;background:var(--primary);color:#fff;border-radius:6px;text-decoration:none}
+form label{display:block;margin-top:10px}
+input,select,textarea{width:100%;padding:8px;margin-top:6px;border:1px solid #e2e8f0;border-radius:6px}
+table.table{width:100%;border-collapse:collapse;margin-top:12px}
+table.table th, table.table td{padding:8px;border:1px solid #eee;text-align:left}
+.alert{background:#fdecea;padding:10px;border-left:4px solid #f1a4a4}
+.success{background:#e6fffa;padding:10px;border-left:4px solid #9ae6b4}
+@media (max-width:600px){ .nav{display:none} }
